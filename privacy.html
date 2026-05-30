@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlideSpark Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #333;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    ul {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SlideSpark Privacy Policy</h1>
+  <p><strong>Last Updated:</strong> May 29, 2026</p>
+
+  <p>This Privacy Policy explains how SlideSpark ("we", "us", or "our") collects, uses, and protects information when you use our Shopify app. SlideSpark is a merchant-facing tool for creating and managing image sliders and carousels within your Shopify store.</p>
+
+  <h2>1. Information We Collect</h2>
+  <p>We collect only what is necessary to provide the service:</p>
+  <ul>
+    <li><strong>Store domain:</strong> Your store's <code>.myshopify.com</code> URL, used to identify your account and associate your slider data with your store.</li>
+    <li><strong>Shopify access token:</strong> An OAuth access token provided by Shopify upon installation, stored securely on our servers and used solely to make authorized API calls on your behalf.</li>
+    <li><strong>Slider and slide configuration:</strong> The names, settings, and layout preferences you create within the app (e.g., slider titles, transition settings, image layout options).</li>
+    <li><strong>Image file URLs:</strong> References (URLs) to images you upload. Images are transmitted directly to and stored on Shopify's own infrastructure via Shopify's Staged Uploads API. We do not store image files on our servers.</li>
+    <li><strong>Billing and subscription status:</strong> Information provided by Shopify about your app plan, subscription status, billing approval, and cancellation status. Payments are processed by Shopify; we do not collect or store payment card information.</li>
+    <li><strong>Operational logs:</strong> Limited server logs used to maintain security, debug errors, and operate the App. These logs do not include customer personal information or payment card information.</li>
+  </ul>
+
+  <h2>2. Information We Do NOT Collect</h2>
+  <p>We do <strong>not</strong> collect:</p>
+  <ul>
+    <li>Any personal information about your customers (buyers). SlideSpark operates entirely within the Shopify admin and does not run any code on your storefront that tracks or identifies shoppers.</li>
+    <li>Storefront visitor analytics, tracking cookies, or shopper behavior data.</li>
+    <li>Your customers' names, emails, addresses, or payment information.</li>
+    <li>Any data beyond what is described in Section 1.</li>
+  </ul>
+
+  <h2>3. How We Use Your Information</h2>
+  <p>The information we collect is used exclusively to provide the SlideSpark service:</p>
+  <ul>
+    <li>To authenticate your store and display your slider configurations within the admin interface.</li>
+    <li>To sync your slider data to your Shopify store via metafields so your theme can display the sliders on your storefront.</li>
+    <li>To process image uploads on your behalf through Shopify's file APIs.</li>
+  </ul>
+  <p>We do not use your information for advertising, marketing, or any purpose unrelated to operating the app.</p>
+
+  <h2>4. Data Sharing</h2>
+  <p>We do not sell, rent, or share your data with third parties. Your data is shared only with:</p>
+  <ul>
+    <li><strong>Shopify:</strong> As the platform through which the app operates, Shopify processes data according to their own <a href="https://www.shopify.com/legal/privacy">Privacy Policy</a>.</li>
+    <li><strong>Neon:</strong> We use Neon (<a href="https://neon.tech">neon.tech</a>) as our database provider. Your store's slider configuration data is stored in Neon's managed Postgres service. Neon processes this data solely to provide database hosting and is bound by their <a href="https://neon.tech/privacy-policy">Privacy Policy</a>.</li>
+    <li><strong>Our hosting provider:</strong> We use a third-party hosting provider to run the app's servers. This provider processes data only as necessary to host the service and is bound by appropriate data processing agreements.</li>
+  </ul>
+
+  <h2>5. Data Retention</h2>
+  <p>Your store's data, including slider configurations and image references, is retained while SlideSpark is installed on your store. When you uninstall the app, we mark your store as uninstalled and remove active session/access data. Shopify sends a <code>shop/redact</code> webhook 48 hours after uninstall, at which point we delete all data associated with your store from our database. You may also contact us at the address below with deletion requests.</p>
+
+  <h2>6. Compliance with Shopify's Mandatory Privacy Webhooks</h2>
+  <p>As required by Shopify, our app responds to the following mandatory privacy webhooks:</p>
+  <ul>
+    <li><strong>Customer data request (<code>customers/data_request</code>):</strong> We do not store any customer data, so no customer data will be returned in response to such requests.</li>
+    <li><strong>Customer data erasure (<code>customers/redact</code>):</strong> We do not store any customer data, so there is nothing to erase.</li>
+    <li><strong>Shop data erasure (<code>shop/redact</code>):</strong> Upon receiving this webhook (sent 48 hours after app uninstall), we delete all data associated with your store from our database.</li>
+  </ul>
+
+  <h2>7. Your Data Rights</h2>
+  <p>Depending on your jurisdiction, you may have rights to access, correct, or request deletion of your personal data. To exercise any of these rights, please contact us at the address below. We will respond within 30 days.</p>
+
+  <h2>8. International Data Transfers</h2>
+  <p>Our servers are located in the United States. If you are accessing SlideSpark from outside the United States, your data may be transferred to and processed in the United States. We take appropriate measures to ensure that any such transfers comply with applicable privacy laws.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify you of material changes by updating the "Last Updated" date at the top of this page. Continued use of the app after changes are posted constitutes your acceptance of the updated policy.</p>
+
+  <h2>10. Contact Us</h2>
+  <p>If you have any questions or requests regarding this Privacy Policy, please contact us at: <a href="mailto:hello@bphdev.com">hello@bphdev.com</a>.</p>
+
+</body>
+</html>
